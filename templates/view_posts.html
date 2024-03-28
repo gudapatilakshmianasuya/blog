@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h5 {
+            color: orangered;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: darkmagenta;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+            color: rgb(78, 20, 185);
+        }
+        p1 {
+            margin-bottom: 20px;
+            color: rgb(29, 127, 165);
+        }
+        p2 {
+            margin-bottom: 20px;
+            color: rgb(36, 33, 241);
+        }
+        p3 {
+            margin-bottom: 20px;
+            color: darkgreen;
+        }
+        body {
+          background-image: url('https://images.unsplash.com/photo-1528459584353-5297db1a9c01?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBsYWlufGVufDB8fDB8fHww');
+        }
+        small {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 color="green">FOOD BLOG POSTS</h1>
+        {% for i in posts %}
+        <div class="post">
+            <h2>{{ i[1] }}</h2>
+            <p>{{ i[2] }}</p>
+            <h5>TYPES OF CHICKEN BRIYANI</h5>
+            <center>
+            <p1>Hyderabadi Biryani.<br>
+                Lucknowi Biryani.<br>
+                Dindigul Biryani.<br>
+                Ambur Biryani.<br>
+                Bhatkali Biryani.<br>
+                Kolkata Biryani.<br>
+                Sindhi Biryani.<br>
+                Malabar Biryani.</p1>
+            </center>
+            <h2>Making of Hyderabadi Biryani</h2>
+            
+            <p2><p3>step1:</p3>I have used Fried Onions as I had some. <br>
+
+                <p3>step2:</p3>If you fry Onions in Oil and then use that Oil in the Biryani, the Biryani will get a nice aroma.<br>
+
+                <p3>step3:</p3>Chicken Biryani tastes better with more Ghee.<br>
+                
+                <p3>step4:</p3>If you add Lemon Juice to Rice while it is boiling, then the Rice stays white.<br>
+                
+                <p3>step5:</p3>The Rice should be added only when the Water is boiling,or Rice becomes sticky,and the grains are not<br>fluffy.<br>
+                
+                <p3>step6:</p3>Salt should be more in Biryani. If you taste the Water, it should taste like seawater. <br>
+
+                <p3>step7:</p3>It is only the Salt that you add to boiling water that gets into the Biryani. <br>
+
+                <p3>step8:</p3>The Salt does not stick even if you add later to the Biryani.<br>
+
+                <p3>step9:</p3>So you must check Salt while the Rice is added to the boiling Water.</p2>
+                <center>
+                <img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg" height="300" width="400"></center>
+                <br>
+                <br>
+            <h2>MAKING OF AMBUR BRIYANI</h2>
+            <p3><p2>step1:</p2>Soak both the dry red chillies in hot water for 5 mins. Drain and make it into a smooth puree. <br>
+                <p2>step2:</p2>Now heat oil in a kadai. Add in cinnamon, cloves, cardamom and fry for a min.<br>
+                <p2>step3:</p2>Pour in 1 tblspn of curd and saute for 30 sec.<br>
+                <p2>step4:</p2>Add in a handful of onions and saute till golden.<br>
+                <p2>step5:</p2>Add in garlic paste and saute for 2 mins.<br>
+                <p2>step6:</p2>Sprinkle in coriander leaves and mint leaves. Saute for a min.<br>
+                <p2>step7:</p2>Add in ginger paste and saute for 2 mins.<br>
+                <p2>step8:</p2>Now add in the chicken and toss well on high heat for 5 to 7 mins till it is golden.<br>
+                <p2>step9:</p2>Add in onions and tomatoes. Saute for 3 to 4 mins. They will cook down and leach out some water.<br>
+                <p2>step10:</p2>Now add in the dry red chilli paste and mix well.<br>
+                <p2>step11:</p2>Add in ½ cup of curd and salt. Mix well. Cover the pot and cook on low heat for 10 mins.<br>
+                <p2>step12:</p2>In the mean time, bring lots of water to boil. Add in salt to it and when it boils add in rice. Mix well. Cook it for 7 to 8 mins. <br>
+                <p2>step13:</p2>When you taste it the rice should have a bite in it. Once it is 80 percent cooked, drain it.<br>
+                <p2>step14:</p2>Now the chicken will be cooked.. Add rice to a large pot, add in curry and mix well.<br>
+                <p2>step15:</p2>Cover with a tight lid and place the whole thing over a tawa and cook on low heat for 10 to 12 mins.<br>
+                <p2>step16:</p2>Turn off the heat and leave it for 15 mins.<br>
+                <p2>step17:</p2>Now open the lid and fluff the rice.<br>
+                <p2>step18:</p2>Serve with raita.<br><center>
+                <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/sneha-archanaskitchen.com/Ambur_Star_Chicken_Biryani_Recipe_.jpg" height="300" width="400"></center>
+                </p3>
+            <small>posted at:{{ i[3] }}</small>
+            <form method="POST" action="{{url_for('delete_post',id=i[0])}}" onsubmit="return confirm('Are you sure you want to delete this post?');">
+            <button>Delete</button>
+            </form>
+            <form method="GET" action="{{url_for('update_post',id=i[0])}}">
+            <button>EDIT</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
